@@ -35,3 +35,12 @@ short way of writing HTML, to make this think look
 v <- c(1, 2, 3, 4)
 print(v)
 ```
+
+
+# Intro to git branching
+
+- use `git branch BRANCH_NAME` or `git checkout -b BRANCH_NAME` to create a branch.
+    - if you use `git branch BRANCH_NAME` you also need to run `git checkout BRANCH_NAME`
+    - `git branch -b BRANCH_NAME` will create and checkout at the same time
+- use `git branch -a` to see all your branches
+
