@@ -51,5 +51,7 @@ print(v)
 
 # Conflicts
 
-- you can edit the same file at the same time,
-  and nothing terrible will happen if the edit occurs in different locations
+- Git will handle edits in the same place
+- And give you a message when the edit happens in the same place when you try to rebase/merge
+- this is called a conflict
+
