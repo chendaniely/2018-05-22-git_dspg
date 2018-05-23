@@ -47,3 +47,7 @@ print(v)
 - `git log --oneline --graph --decorate --all` will show you everything in the history
 - you can use ctrl+r to do a reverse bash search for this command
 
+# Conflicts
+
+- you can edit the same file at the same time,
+  and nothing terrible will happen if the edit occurs in different locations
