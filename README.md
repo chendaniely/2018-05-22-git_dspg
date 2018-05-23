@@ -43,4 +43,5 @@ print(v)
     - if you use `git branch BRANCH_NAME` you also need to run `git checkout BRANCH_NAME`
     - `git branch -b BRANCH_NAME` will create and checkout at the same time
 - use `git branch -a` to see all your branches
+- `git log --oneline` will show you where you are (HEAD) and what branches you have
 
