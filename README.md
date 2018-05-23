@@ -1,16 +1,18 @@
+# Git training
+
 I ran `nano README.md` to create an empty README file.
 
 This is the second edit to my file.
 
-README files are typically used to tell people what this 
+README files are typically used to tell people what this
 project is for.
 Try to be helpful to your future self and others.
 
-Many times you'll have setup instructions and how to run 
+Many times you'll have setup instructions and how to run
 the code in there.
 
-the md extention here refers to "markdown" which is a 
-short way of writing HTML, to make this think look 
+the md extention here refers to "markdown" which is a
+short way of writing HTML, to make this think look
 "prettier".
 
 # a quick intro to markdown:
@@ -47,3 +49,9 @@ print(v)
 - `git log --oneline --graph --decorate --all` will show you everything in the history
 - you can use ctrl+r to do a reverse bash search for this command
 
+# Conflicts
+
+- Git allows you to work on the same file simultaneously
+- And give you a message when the edit happens in the same place when you try to rebase/merge
+- this is called a conflict
+- if a conflict does not exist, it will do an auto-merge, and the changes to the file will be combined silently.
